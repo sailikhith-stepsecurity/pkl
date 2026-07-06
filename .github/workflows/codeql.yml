@@ -8,6 +8,9 @@
     - main
   schedule:
   - cron: 29 17 * * 4
+permissions:
+  contents: read
+
 jobs:
   analyze-actions:
     name: Analyze (actions)
